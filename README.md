@@ -2,6 +2,29 @@
 
 A classic Breakout-style game built with Python's Turtle graphics and Pygame for background music.
 
+## Project Structure
+```
+BreakoutGame/
+│
+├── ball.py
+├── paddle.py
+├── bricks.py
+├── scoreboard.py
+├── player.py
+├── main.py
+│
+├── requirements.txt        # Dependências (pygame, etc.)
+├── README.md               # Descrição do projeto
+├── TODO.md                 # Lista de tarefas/ideias
+│
+├── assets/                 # Pasta para ficheiros externos
+│   ├── Theme_Song.ogg      # Música de fundo
+│   └── (sprites/imagens se usares no futuro)
+│
+└── .gitignore              # Ignora __pycache__/ e ficheiros .pyc
+
+```
+
 ## Features
 
 - Paddle control using left and right arrow keys
@@ -17,4 +40,5 @@ A classic Breakout-style game built with Python's Turtle graphics and Pygame for
 2. Clone this repository:
    ```bash
    git clone https://github.com/yourusername/breakout-game.git
+   pip install -r requirements.txt
    cd breakout-game
